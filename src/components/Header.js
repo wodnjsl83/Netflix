@@ -5,8 +5,9 @@ const Header = () => {
   return (
     <header>
       <div className="Menu">
-        <img src="images/logo.png" />
-
+        <a href="/">
+          <img src="images/logo.png" />
+        </a>
         <button>
           <a href="/login">Sign In</a>
         </button>

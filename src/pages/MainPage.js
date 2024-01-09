@@ -1,9 +1,11 @@
 import React from "react";
 import "./css/Mainpage.css";
+import "./css/Login.css";
 
 const MainPage = () => {
   return (
     <section>
+      <header />
       <div className="hide-bg"></div>
       <div className="MP1">
         <h1>Unlimited movies, TV shows, and more</h1>

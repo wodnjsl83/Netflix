@@ -62,7 +62,7 @@ const Login = () => {
             onChange={onChange}
           />
         </div>
-        <button>
+        <button type="submit">
           <a href="/">Sign In</a>
         </button>
         <p>

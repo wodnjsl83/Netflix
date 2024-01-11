@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Main from "./pages/containers/Main";
 import Login from "./pages/member/Login";
 import { Route, Routes } from "react-router-dom";
+import JoinPage from "./pages/member/JoinPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route>
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/join" element={<JoinPage />} />
         </Route>
       </Routes>
       <Footer />

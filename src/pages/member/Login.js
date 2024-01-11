@@ -62,11 +62,9 @@ const Login = () => {
             onChange={onChange}
           />
         </div>
-        <button type="submit">
-          <a href="/">Sign In</a>
-        </button>
+        <button type="submit">Sign In</button>
         <p>
-          New to Netflix? <a href="/">Sign up now.</a>
+          New to Netflix? <Link to="/Join">Sign up now.</Link>
         </p>
         <p>
           This page is protected by Google reCAPTCHA to <br />

@@ -1,7 +1,30 @@
-.site-footer {
-  background: rgba(0, 0, 0, 0.75);
-  margin-top: 0;
+.ft-wrap {
+  position: absolute;
+  width: 1903px;
+  top: 740px;
+  left: 0;
+  background-color: black;
+  color: #ccc;
+  opacity: 0.7;
+  padding: 40px 440px;
+  font-size: 16px;
+  font-weight: lighter;
 }
-.footer-top {
-  color: #737373;
+.ft-wrap p:nth-child(1) {
+  margin: 0 0 30px;
+  padding: 0;
+}
+.ft-wrap ul {
+  font-size: 13px;
+}
+.ft-wrap ul li {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 0 22px 0 0;
+  width: 25%;
+}
+.ft-wrap p:nth-child(3) {
+  line-height: 23px;
+  font-size: 13px;
+  margin-top: 30px;
 }

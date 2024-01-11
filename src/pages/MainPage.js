@@ -10,9 +10,9 @@ const MainPage = () => {
         <h1>Unlimited movies, TV shows, and more</h1>
         <h3>Watch anywhere. Cancel anytime</h3>
         <h4>
-          Reday to watch? Enter your email to create or restart your membership.
+          Reday to watch? Enter your ID to create or restart your membership.
         </h4>
-        <input type="text" placeholder="Email address" />
+        <input type="text" placeholder="ID or phone number" />
         <button className="ST-BTN">
           <a href="/MainPage2">Get Started !</a>
         </button>

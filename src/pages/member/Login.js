@@ -50,7 +50,7 @@ const Login = () => {
           <input
             type="text"
             name="userid"
-            placeholder="Email or phone number"
+            placeholder="ID or phone number"
             value={loginData.userid}
             onChange={onChange}
           />

@@ -49,7 +49,7 @@ const PopupPostCode = (props) => {
         }}
         className="postCode_btn"
       >
-        닫기
+        CLOSE X
       </button>
     </div>
   );

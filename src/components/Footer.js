@@ -4,7 +4,7 @@ import "../components/Footer.css";
 const Footer = () => {
   return (
     <footer>
-      {/* <div className="ft-wrap">
+      <div className="ft-wrap">
         <p>
           <a href="https://help.netflix.com/ko/contactus">
             Questions? Contact us.
@@ -47,7 +47,7 @@ const Footer = () => {
           Hosted by: Amazon Web Services Inc.
           <br /> KFTC website
         </p>
-      </div> */}
+      </div>
     </footer>
   );
 };

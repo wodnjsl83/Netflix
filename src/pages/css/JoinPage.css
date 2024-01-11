@@ -1,0 +1,52 @@
+.join {
+  height: 1280px;
+  background-image: url(/public/images/join.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.joinpg {
+  color: gray;
+  width: 1200px;
+  height: 690px;
+  position: absolute;
+  top: 130px;
+  left: 480px;
+  border-radius: 10px;
+}
+/* .joinpg h2 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: #ccc;
+} */
+.joinpg li {
+  margin-bottom: 10px;
+}
+
+.joinpg input {
+  border: none;
+  width: 505px;
+  height: 52px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #333;
+  color: gray;
+  padding: 10px;
+}
+.postCode_btn {
+  position: absolute;
+  top: 606px;
+  left: 810px;
+}
+.joinpg button {
+  width: 105px;
+  height: 42px;
+  background: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: gray;
+}
+.joinpg button:hover {
+  background-color: #ccc;
+  color: black;
+}

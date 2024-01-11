@@ -2,11 +2,13 @@
   display: none;
 }
 #login {
-  width: 1920px;
-  height: 100vh;
+  height: 1280px;
   background-image: url(/public/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #login .hide-bg {
+  height: 1280px;
   background: rgb(0 0 0 / 40%);
   position: absolute;
   top: 0;

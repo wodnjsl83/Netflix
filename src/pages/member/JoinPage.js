@@ -93,42 +93,44 @@ const JoinPage = () => {
                   });
                 }
               } else {
-                alert("핸드폰 번호를 입력해주세요.");
+                alert("Please enter your cell phone number.");
                 setFormData({
                   ...formData,
                   m_phone: "",
                 });
               }
             } else {
-              alert("이메일을 다시 입력해주세요");
+              alert("Please re-enter your email");
               setFormData({
                 ...formData,
                 m_email: "",
               });
             }
           } else {
-            alert("비밀번호와 비밀번호 확인이 일치 하지않습니다");
+            alert("Password and password verification don't match");
             setFormData({
               ...formData,
               m_passch: "",
             });
           }
         } else {
-          alert("8자리 이상 영문 대 소문자, 숫자, 특수문자를 사용하세요.");
+          alert(
+            "Use at least 8 English uppercase, lowercase letters, numbers, and special characters."
+          );
           setFormData({
             ...formData,
             m_pass: "",
           });
         }
       } else {
-        alert("이름을 입력해주세요.");
+        alert("Please enter a name.");
         setFormData({
           ...formData,
           m_name: "",
         });
       }
     } else {
-      alert("아이디를 다시 입력해주세요");
+      alert("Please enter your ID again");
       setFormData({
         ...formData,
         m_id: "",
@@ -163,18 +165,16 @@ const JoinPage = () => {
   };
   return (
     <div className="join">
-      <h2>회원가입</h2>
       <div className="joinpg">
+        {/* <h2>Join</h2> */}
         <form onSubmit={onSubmit} className="formStyle">
           <ul>
-            <li>
-              * 아이디<label>(필수)</label>
-            </li>
+            <li>* ID</li>
             <li>
               <input
                 className="inputBox"
                 type="text"
-                placeholder="아이디는 최소 8자리이상 입력해주세요."
+                placeholder="Please enter at least eight digits."
                 name="m_id"
                 value={formData.m_id}
                 onChange={onChange}
@@ -182,14 +182,12 @@ const JoinPage = () => {
             </li>
           </ul>
           <ul>
-            <li>
-              * 이름<label>(필수)</label>
-            </li>
+            <li>* NAME</li>
             <li>
               <input
                 className="inputBox"
                 type="text"
-                placeholder="이름을 입력해주세요."
+                placeholder="Please enter a name."
                 name="m_name"
                 value={formData.m_name}
                 onChange={onChange}
@@ -197,9 +195,7 @@ const JoinPage = () => {
             </li>
           </ul>
           <ul>
-            <li>
-              * 비밀번호<label>(필수)</label>
-            </li>
+            <li>* PASSWORD</li>
             <li>
               <input
                 className="inputBox"
@@ -207,12 +203,12 @@ const JoinPage = () => {
                 name="m_pass"
                 value={formData.m_pass}
                 onChange={onChange}
-                placeholder="8자리 이상, 영문 대,소문자+숫자+특수문자 조합"
+                placeholder="At least 8 digits, English case, case + number + special character combination"
               />
             </li>
           </ul>
           <ul>
-            <li>* 비밀번호 체크</li>
+            <li>* CHECK PASSWORD</li>
             <li>
               <input
                 className="inputBox"
@@ -221,19 +217,17 @@ const JoinPage = () => {
                 value={formData.m_passch}
                 onChange={onChange}
                 OnpwCh={OnpwCh}
-                placeholder="비밀번호와 동일하게 입력해주세요."
+                placeholder="Please enter the same password."
               />
             </li>
           </ul>
           <ul>
-            <li>
-              * 이메일<label>(필수)</label>
-            </li>
+            <li>* E-MAIL</li>
             <li>
               <input
                 className="inputBox"
                 type="text"
-                placeholder="E-mail@.com 형식으로 맞게 입력해주세요."
+                placeholder="Please enter the E-mail@.com format."
                 name="m_email"
                 value={formData.m_email}
                 onChange={onChange}
@@ -241,9 +235,7 @@ const JoinPage = () => {
             </li>
           </ul>
           <ul>
-            <li>
-              * 전화번호<label>(필수)</label>
-            </li>
+            <li>* PHONE NUMBER</li>
             <li>
               <input
                 className="inputBox"
@@ -256,7 +248,7 @@ const JoinPage = () => {
             </li>
           </ul>
           <ul className="address">
-            <li>* 주소</li>
+            <li>* ADDRESS</li>
             <li>
               <input
                 type="text"
@@ -268,11 +260,11 @@ const JoinPage = () => {
                 type="text"
                 name="m_address2"
                 value={formData.m_address2}
-                placeholder="상세주소"
+                placeholder="Detailed address"
                 onChange={onChange}
               />
               <button className="postcode" type="button" onClick={openPostCode}>
-                우편번호 찾기
+                FIND ZIP CODE
               </button>
               <div id="popupDom">
                 {isPopupOpen && (
@@ -287,7 +279,7 @@ const JoinPage = () => {
             </li>
           </ul>
           <ul className="joinbtn">
-            <button type="submit">가입</button>
+            <button type="submit">JOIN</button>
           </ul>
         </form>
       </div>

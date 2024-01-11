@@ -1,7 +1,8 @@
 section {
-  width: 1920px;
-  height: 100vh;
+  height: 1280px;
   background-image: url(/public/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hide-bg {
   background-image: linear-gradient(
@@ -10,8 +11,8 @@ section {
     rgba(0, 0, 0, 0) 60%,
     rgba(0, 0, 0, 0.8) 100%
   );
-  width: 1920px;
-  height: 100vh;
+
+  height: 1280px;
   position: absolute;
   top: 0;
   right: 0;

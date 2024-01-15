@@ -1,0 +1,29 @@
+.movie {
+  padding-top: 10px;
+  background: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie-bx {
+  width: 250px;
+  margin: 16px;
+  color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.movie-bx img {
+  max-width: 100%;
+}
+
+.moive-if {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+.moive-if h4 {
+  margin: 0;
+}
+.moive-if span {
+  margin-left: 3px;
+}

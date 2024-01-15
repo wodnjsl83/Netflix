@@ -5,6 +5,7 @@ import Main from "./pages/containers/Main";
 import Login from "./pages/member/Login";
 import { Route, Routes } from "react-router-dom";
 import JoinPage from "./pages/member/JoinPage";
+import MainPage2 from "./pages/MainPage2";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
           <Route path="/join" element={<JoinPage />} />
+          <Route path="/Mainpage2" element={<MainPage2 />} />
         </Route>
       </Routes>
       <Footer />

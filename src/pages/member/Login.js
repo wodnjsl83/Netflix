@@ -25,7 +25,7 @@ const Login = () => {
     e.preventDefault();
     //인풋에 입력되었는지 체크
     if (loginData.userid === "" || loginData.userpass === "") {
-      alert("아이디와 비밀번호를 다시 입력해주세요");
+      alert("Please enter your ID and password again");
     } else {
       axios
         .post(`${API_URL}/login`, loginData)

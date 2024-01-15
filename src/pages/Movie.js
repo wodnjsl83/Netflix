@@ -8,7 +8,7 @@ export default function Movie({ title, poster_path, vote_average, overview }) {
       <div className="movie-if">
         <h4>{title}</h4>
         <span>{vote_average}</span>
-        <span>{overview}</span>
+        <span className="hd-span">{overview}</span>
       </div>
     </div>
   );

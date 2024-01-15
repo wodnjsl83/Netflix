@@ -6,6 +6,7 @@ import "./css/Mainpage2.css";
 const MainPage2 = () => {
   return (
     <div className="movie">
+      {/* <Header></Header> */}
       {dummy.results.map((item) => {
         return (
           <Movie
@@ -16,6 +17,7 @@ const MainPage2 = () => {
           />
         );
       })}
+      {/* <Footer></Footer> */}
     </div>
   );
 };

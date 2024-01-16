@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import "../components/Header.css";
 
 const Mainheader = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <header>
+      <div className="Menu">
+        <a href="/">
+          <img src="images/logo.png" />
+        </a>
+      </div>
+    </header>
+  );
+};
 
-export default Mainheader
+export default Mainheader;

@@ -2,11 +2,13 @@ import React from "react";
 import { dummy } from "../movieDummy";
 import Movie from "./Movie";
 import "./css/Mainpage2.css";
+import Mainheader from "./Mainheader";
 
 const MainPage2 = () => {
   return (
     <div className="movie">
-      {/* <Header></Header> */}
+      <div className="hide-bg"> </div>
+      <Mainheader />
       {dummy.results.map((item) => {
         return (
           <Movie

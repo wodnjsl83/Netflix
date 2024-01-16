@@ -1,15 +1,29 @@
 .movie {
-  padding-top: 90px;
+  padding-top: 70px;
   background: #333;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 1433px;
+  background-image: url(/public/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.movie .hide-bg {
+  height: 1433px;
+  background: rgb(0 0 0 / 40%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 .movie-bx {
   width: 250px;
   margin: 16px;
   color: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 .movie-bx img {
   max-width: 100%;

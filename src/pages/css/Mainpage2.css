@@ -27,3 +27,9 @@
 .moive-if span {
   margin-left: 3px;
 }
+.hd-bg {
+  width: 400px;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}

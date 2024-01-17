@@ -166,7 +166,6 @@ const JoinPage = () => {
   return (
     <div className="join">
       <div className="joinpg">
-        {/* <h2>Join</h2> */}
         <form onSubmit={onSubmit} className="formStyle">
           <ul>
             <li>* ID</li>
@@ -187,7 +186,7 @@ const JoinPage = () => {
               <input
                 className="inputBox"
                 type="text"
-                placeholder="Please enter a name."
+                placeholder="Please enter name."
                 name="m_name"
                 value={formData.m_name}
                 onChange={onChange}

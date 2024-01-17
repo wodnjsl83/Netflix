@@ -1,15 +1,13 @@
 import React from "react";
-import "../components/Header.css";
+import "./css/Mainheader.css";
 
 const Mainheader = () => {
   return (
-    <header>
-      <div className="Menu">
-        <a href="/">
-          <img src="images/logo.png" />
-        </a>
-      </div>
-    </header>
+    <div className="Menu1">
+      <a href="/">
+        <img src="images/logo.png" />
+      </a>
+    </div>
   );
 };
 

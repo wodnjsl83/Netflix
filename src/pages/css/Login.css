@@ -7,6 +7,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hd-a {
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 860px;
+}
 #login .hide-bg {
   height: 1280px;
   background: rgb(0 0 0 / 40%);

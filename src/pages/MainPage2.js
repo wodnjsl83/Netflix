@@ -6,6 +6,9 @@ import "./css/Mainpage2.css";
 const MainPage2 = () => {
   return (
     <div className="movie">
+      <a href="/">
+        <img src="images/logo.png" />
+      </a>
       <div className="hide-bg"> </div>
       {dummy.results.map((item) => {
         return (

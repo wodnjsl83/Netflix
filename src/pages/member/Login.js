@@ -43,6 +43,9 @@ const Login = () => {
   };
   return (
     <div id="login">
+      <a href="/" className="hd-a">
+        <img src="images/logo.png" />
+      </a>
       <div className="hide-bg"></div>
       <form className="login-bx" onSubmit={onSubmit}>
         <h1>Sign In</h1>

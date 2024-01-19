@@ -24,6 +24,7 @@ const Header = () => {
       }
     }, 3000);
   }, [username, dispatch]);
+  if (window.location.pathname === "/MainPage2") return null;
   return (
     <header>
       <div className="Menu">

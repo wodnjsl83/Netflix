@@ -2,6 +2,7 @@ import React from "react";
 import "../components/Footer.css";
 
 const Footer = () => {
+  if (window.location.pathname === "/MainPage2") return null;
   return (
     <footer>
       <div className="ft-wrap">

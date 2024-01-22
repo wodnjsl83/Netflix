@@ -9,6 +9,10 @@ const MainPage2 = () => {
       <a href="/">
         <img src="images/logo.png" />
       </a>
+      <ul>
+        <li>Home</li>
+        <li>series</li>
+      </ul>
       <div className="hide-bg"> </div>
       {dummy.results.map((item) => {
         return (

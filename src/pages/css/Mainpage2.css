@@ -5,9 +5,9 @@
   flex-wrap: wrap;
   justify-content: center;
   height: 1433px;
-  background-image: url(/public/images/background.jpg);
+  /* background-image: url(/public/images/background.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 .movie a {
   z-index: 1;
@@ -33,7 +33,6 @@
 .movie-bx img {
   max-width: 100%;
 }
-
 .moive-if {
   display: flex;
   justify-content: space-around;
@@ -46,10 +45,21 @@
 .moive-if span {
   margin-left: 3px;
 }
-.hd-bg {
+/* .hd-bg {
   display: none;
   width: 400px;
   border: 1px solid #ccc;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   padding: 15px;
+} */
+.hbg-box {
+  display: none;
+  top: 250px;
+  margin-right: -16px;
+  background: rgb(0 0 0 / 70%);
+  border-radius: 10px;
+  padding: 30px 20px;
+  width: 320px;
+  font-size: 12px;
+  text-align: center;
 }

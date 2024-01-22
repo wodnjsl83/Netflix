@@ -165,6 +165,9 @@ const JoinPage = () => {
   };
   return (
     <div className="join">
+      <a href="/" className="hd-a">
+        <img src="images/logo.png" />
+      </a>
       <div className="joinpg">
         <form onSubmit={onSubmit} className="formStyle">
           <ul>

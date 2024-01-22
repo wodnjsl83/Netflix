@@ -16,6 +16,7 @@ const MainPage2 = () => {
             title={item.title}
             poster_path={item.poster_path}
             vote_average={item.vote_average}
+            overview={item.overview}
           />
         );
       })}

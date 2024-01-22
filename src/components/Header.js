@@ -26,7 +26,8 @@ const Header = () => {
   }, [username, dispatch]);
   if (
     window.location.pathname === "/MainPage2" ||
-    window.location.pathname === "/login"
+    window.location.pathname === "/login" ||
+    window.location.pathname === "/Join"
   )
     return null;
   return (
